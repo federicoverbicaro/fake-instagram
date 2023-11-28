@@ -37,6 +37,7 @@ h1{
 /* contenitore 2 */
 .contenitore2{
     width: 50%;
+    height: auto;
     justify-content: center; 
     align-items: center;
     position: absolute;
@@ -55,7 +56,7 @@ h1{
     padding-top: 30px;
 }
 .input{
-    margin: 50px auto;
+    margin: 50px auto 20px;
     gap: 5px;
 }
 .input > input{
@@ -63,13 +64,62 @@ h1{
     height: 40px;
     border-radius: 5px;
     border: 1px solid #dbdbdb;
+    padding-left: 10px;
 }
+
 .btn{
     border: none;
     background-color: #57b6f9;
     border-radius: 7px;
     color: white;
     height: 30px;
+    padding: 18px;
+    justify-content: center;
+    align-items: center;
+}
+.input > button{
+    margin-top: 18px;
+}
+/* riga separatrice */
+.line-with-text {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .line {
+    flex: 1;
+    border-top: 1px solid #dbdbdb; 
+  }
+
+  .text {
+    padding: 0 10px;
+  }
+  /* lista */
+.lista{
+    justify-content: center;
+    font-size: 15px;
+    width: 80%;
+    margin: 10px auto 0px;
+
+}
+.lista ul li{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 15px;
+   
+}
+.lista ul li > a:last-child{
+   color: #385185;
+   
+}
+.lista ul li a > svg{
+    fill: #385185;
+    
+ }
+.lista ul li > a{
+   text-decoration: none;
 }
 
 
@@ -85,6 +135,83 @@ h1{
 .colonna2 span > a{
     color: #0995f6;
     text-decoration: none;
+}
+/* contenitore download */
+.download{
+    width: 350px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.btn-black > button{
+    width: 145px;
+    height: 40px;
+    background-color: black;
+    margin-top: 15px;
+    border-radius: 7px;
+    gap: 10px;
+}
+.btn-black {
+    gap: 10px;
+}
+.icons > svg{
+  fill: white;
+  height:35px;
+  padding-left: 7px;
+}
+.icons-2 > svg{
+    fill: white;
+    height:30px;
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+
+.text-gle{
+    padding-top: 5px;
+}
+
+.text-gle > p{
+    color: white;
+    font-size: 10px;
+    display: block;
+}
+.text-gle > h3{
+    color: white;
+    display: block;
+  }
+
+.text-btn{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.text-btn > p{
+    color: white;
+    font-size: 10px;
+    display: block;
+  }
+  .text-btn > h3{
+    color: white;
+    display: block;
+  }
+/* contenitore footer */
+
+
+.row1-footer{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid lime;
+    
+ }
+.row1-colonna1{
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.row1-colonna1 ul li{
+  list-style-type: none;
+
 }
 
 
