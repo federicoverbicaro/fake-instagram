@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Playfair Display', serif;
+    font-size:45px;
+}
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+
+/* contenitore supremo */
+
+.row {
+    width: 50%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.contenitore1{
+    width: 50%;
+    justify-content: end; 
+    align-items: center;
+}
+
+.contenitore2{
+    width: 50%;
+    justify-content: center; 
+    align-items: center;
+}
+.colonna2{
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+
